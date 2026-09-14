@@ -1,0 +1,25 @@
+body {
+    margin: 6%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.textbox {
+    padding-left: 5%;
+}
+.textboxsmaller{
+    padding-right: 50%;
+}
+h1 {
+    font-size: 3rem;
+}
+span {
+    color:#8f0000;;
+}
+hr {
+    color: #8f0000;
+}
+.tags{
+    background-color: #eeeeee;
+    color: black ;
+}
