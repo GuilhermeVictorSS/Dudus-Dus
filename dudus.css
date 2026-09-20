@@ -23,3 +23,42 @@ hr {
     background-color: #eeeeee;
     color: black ;
 }
+table {
+    table-layout: fixed;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #8f0000;
+    margin-left: 8%;
+    margin-right: 12%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+table:hover{
+    transform: scale(1.03);
+}
+th {
+    background-color: #8f0000;
+    color: white;
+    border: 1px;
+
+}
+td {
+    border: 1px solid black;
+    color: #8f0000;
+    background-color: white;
+}
+.bggray {
+    background-color: #eeeeee;
+    border-radius: 30px;
+    padding: 4%;
+    padding-bottom: 6%;
+    border: 1px solid #8f0000;
+    transition: background-color 0.5s ease;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.bggray:hover{
+    background-color: #dedede;
+}
